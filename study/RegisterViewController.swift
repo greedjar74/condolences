@@ -15,6 +15,21 @@ class RegisterViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     @IBOutlet weak var mournerTextField: UITextField!
     @IBOutlet weak var infoTextField: UITextField!
     
+    @IBOutlet weak var firstDatePickView: UIView!
+    @IBOutlet weak var firstDatePickInnerView: UIView!
+    @IBOutlet weak var firstTimePickView: UIView!
+    @IBOutlet weak var firstTimePickInnerView: UIView!
+    
+    @IBOutlet weak var secondDatePickView: UIView!
+    @IBOutlet weak var secondDatePickInnerView: UIView!
+    @IBOutlet weak var secondTimePickView: UIView!
+    @IBOutlet weak var secondTimePickInnerView: UIView!
+    
+    @IBOutlet weak var thirdDatePickView: UIView!
+    @IBOutlet weak var thirdDatePickInnerView: UIView!
+    @IBOutlet weak var thirdTimePickView: UIView!
+    @IBOutlet weak var thirdTimePickInnerView: UIView!
+    
     let mournerList = ["1", "2", "3", "4", "5"]
     let infoList = ["1", "2", "3", "4"]
     
@@ -27,6 +42,7 @@ class RegisterViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         self.configureContentsTextView()
         self.configureButtonSetting()
         self.configurePickerView()
+        self.configureDateTimePickViewSetting()
     }
     
     func configureButtonSetting() {
@@ -62,6 +78,71 @@ class RegisterViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         self.infoTextField.inputView = picker2
         self.infoTextField.inputAccessoryView = toolBar
     }
+    
+    func configureDateTimePickViewSetting() {
+        let borderColor = UIColor(red: 220/255, green: 220/255, blue: 220/255, alpha: 1.0)
+        
+        self.firstDatePickView.layer.borderColor = borderColor.cgColor
+        self.firstDatePickView.layer.borderWidth = 0.5
+        self.firstDatePickView.layer.cornerRadius = 10.0
+        
+        self.firstTimePickView.layer.borderColor = borderColor.cgColor
+        self.firstTimePickView.layer.borderWidth = 0.5
+        self.firstTimePickView.layer.cornerRadius = 10.0
+        
+        self.firstDatePickInnerView.layer.borderColor = borderColor.cgColor
+        self.firstDatePickInnerView.layer.borderWidth = 0.5
+        self.firstDatePickInnerView.layer.cornerRadius = 10.0
+        self.firstDatePickInnerView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner]
+        self.firstDatePickInnerView.layer.masksToBounds = true
+        
+        self.firstTimePickInnerView.layer.borderColor = borderColor.cgColor
+        self.firstTimePickInnerView.layer.borderWidth = 0.5
+        self.firstTimePickInnerView.layer.cornerRadius = 10.0
+        self.firstTimePickInnerView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner]
+        self.firstTimePickInnerView.layer.masksToBounds = true
+        
+        self.secondDatePickView.layer.borderColor = borderColor.cgColor
+        self.secondDatePickView.layer.borderWidth = 0.5
+        self.secondDatePickView.layer.cornerRadius = 10.0
+        
+        self.secondTimePickView.layer.borderColor = borderColor.cgColor
+        self.secondTimePickView.layer.borderWidth = 0.5
+        self.secondTimePickView.layer.cornerRadius = 10.0
+        
+        self.secondDatePickInnerView.layer.borderColor = borderColor.cgColor
+        self.secondDatePickInnerView.layer.borderWidth = 0.5
+        self.secondDatePickInnerView.layer.cornerRadius = 10.0
+        self.secondDatePickInnerView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner]
+        self.secondDatePickInnerView.layer.masksToBounds = true
+        
+        self.secondTimePickInnerView.layer.borderColor = borderColor.cgColor
+        self.secondTimePickInnerView.layer.borderWidth = 0.5
+        self.secondTimePickInnerView.layer.cornerRadius = 10.0
+        self.secondTimePickInnerView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner]
+        self.secondTimePickInnerView.layer.masksToBounds = true
+        
+        self.thirdDatePickView.layer.borderColor = borderColor.cgColor
+        self.thirdDatePickView.layer.borderWidth = 0.5
+        self.thirdDatePickView.layer.cornerRadius = 10.0
+        
+        self.thirdTimePickView.layer.borderColor = borderColor.cgColor
+        self.thirdTimePickView.layer.borderWidth = 0.5
+        self.thirdTimePickView.layer.cornerRadius = 10.0
+        
+        self.thirdDatePickInnerView.layer.borderColor = borderColor.cgColor
+        self.thirdDatePickInnerView.layer.borderWidth = 0.5
+        self.thirdDatePickInnerView.layer.cornerRadius = 10.0
+        self.thirdDatePickInnerView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner]
+        self.thirdDatePickInnerView.layer.masksToBounds = true
+        
+        self.thirdTimePickInnerView.layer.borderColor = borderColor.cgColor
+        self.thirdTimePickInnerView.layer.borderWidth = 0.5
+        self.thirdTimePickInnerView.layer.cornerRadius = 10.0
+        self.thirdTimePickInnerView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner]
+        self.thirdTimePickInnerView.layer.masksToBounds = true
+    }
+    
     
     @objc func onPickDone() {
         self.mournerTextField.resignFirstResponder()
