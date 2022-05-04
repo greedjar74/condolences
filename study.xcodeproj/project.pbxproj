@@ -20,7 +20,7 @@
 		BEC6D5872811148D00806712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC6D5862811148D00806712 /* Assets.xcassets */; };
 		BEC6D58A2811148D00806712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC6D5882811148D00806712 /* LaunchScreen.storyboard */; };
 		BEC6D5922811265D00806712 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6D5912811265D00806712 /* RegisterViewController.swift */; };
-		BECD7791281B63BC000DF643 /* CondolencesReceivedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECD7790281B63BC000DF643 /* CondolencesReceivedViewController.swift */; };
+		BED6EF5F28224ED20076838D /* OrderCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED6EF5E28224ED20076838D /* OrderCheckViewController.swift */; };
 		BEDCCF0228167B990064C7F4 /* LicenseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDCCF0128167B990064C7F4 /* LicenseInfoViewController.swift */; };
 		BEEEBB8B2813D49F003A8F06 /* DeliveryInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEEBB8A2813D49F003A8F06 /* DeliveryInfoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +41,7 @@
 		BEC6D5892811148D00806712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEC6D58B2811148D00806712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEC6D5912811265D00806712 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		BECD7790281B63BC000DF643 /* CondolencesReceivedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondolencesReceivedViewController.swift; sourceTree = "<group>"; };
+		BED6EF5E28224ED20076838D /* OrderCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCheckViewController.swift; sourceTree = "<group>"; };
 		BEDCCF0128167B990064C7F4 /* LicenseInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseInfoViewController.swift; sourceTree = "<group>"; };
 		BEEEBB8A2813D49F003A8F06 /* DeliveryInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,7 +79,6 @@
 				BEC6D57D2811148C00806712 /* AppDelegate.swift */,
 				BEC6D57F2811148C00806712 /* SceneDelegate.swift */,
 				BEC6D5912811265D00806712 /* RegisterViewController.swift */,
-				BECD7790281B63BC000DF643 /* CondolencesReceivedViewController.swift */,
 				BE1CF48A28125AEC0080FE3F /* SearchViewController.swift */,
 				BE1B48FD2817A59100C3CC03 /* OrderInfoViewController.swift */,
 				BE5353202817B5690001AC7C /* BasketOrderInfoViewController.swift */,
@@ -89,6 +88,7 @@
 				BE6CD5082818E7DF001D3651 /* QuestionViewController.swift */,
 				BE6CD50A2818F53C001D3651 /* ListViewController.swift */,
 				BE6CD50C28190BA8001D3651 /* RegistViewController.swift */,
+				BED6EF5E28224ED20076838D /* OrderCheckViewController.swift */,
 				BEC6D5832811148C00806712 /* Main.storyboard */,
 				BEC6D5862811148D00806712 /* Assets.xcassets */,
 				BEC6D5882811148D00806712 /* LaunchScreen.storyboard */,
@@ -170,7 +170,6 @@
 			files = (
 				BEC6D57E2811148C00806712 /* AppDelegate.swift in Sources */,
 				BE1B48FE2817A59100C3CC03 /* OrderInfoViewController.swift in Sources */,
-				BECD7791281B63BC000DF643 /* CondolencesReceivedViewController.swift in Sources */,
 				BE6CD50D28190BA8001D3651 /* RegistViewController.swift in Sources */,
 				BE5353272817BDFD0001AC7C /* RibbonOrderViewController.swift in Sources */,
 				BEC6D5802811148C00806712 /* SceneDelegate.swift in Sources */,
@@ -180,6 +179,7 @@
 				BE6CD5092818E7DF001D3651 /* QuestionViewController.swift in Sources */,
 				BEEEBB8B2813D49F003A8F06 /* DeliveryInfoViewController.swift in Sources */,
 				BEC6D5922811265D00806712 /* RegisterViewController.swift in Sources */,
+				BED6EF5F28224ED20076838D /* OrderCheckViewController.swift in Sources */,
 				BE5353212817B5690001AC7C /* BasketOrderInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
