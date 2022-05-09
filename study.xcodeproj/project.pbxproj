@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B30F094661BA5610D21761BF /* Pods_study.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244FB361506B21428C7F7307 /* Pods_study.framework */; };
-		BE1B48FE2817A59100C3CC03 /* OrderInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B48FD2817A59100C3CC03 /* OrderInfoViewController.swift */; };
 		BE1CF48B28125AEC0080FE3F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1CF48A28125AEC0080FE3F /* SearchViewController.swift */; };
-		BE5353212817B5690001AC7C /* BasketOrderInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5353202817B5690001AC7C /* BasketOrderInfoViewController.swift */; };
 		BE5353272817BDFD0001AC7C /* RibbonOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5353262817BDFD0001AC7C /* RibbonOrderViewController.swift */; };
 		BE6CD5092818E7DF001D3651 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CD5082818E7DF001D3651 /* QuestionViewController.swift */; };
 		BE6CD50B2818F53C001D3651 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CD50A2818F53C001D3651 /* ListViewController.swift */; };
 		BE6CD50D28190BA8001D3651 /* RegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CD50C28190BA8001D3651 /* RegistViewController.swift */; };
+		BE6F3BB428292A8400D85915 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6F3BB328292A8400D85915 /* SecondViewController.swift */; };
+		BE6F3BB628292A9100D85915 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6F3BB528292A9100D85915 /* ThirdViewController.swift */; };
+		BEABF0A72826BB72001C43CD /* FlowerOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABF0A62826BB72001C43CD /* FlowerOrderViewController.swift */; };
+		BEABF0A92826BC64001C43CD /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABF0A82826BC64001C43CD /* MenuCell.swift */; };
+		BEABF0AB2826BC9C001C43CD /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEABF0AA2826BC9C001C43CD /* MenuCell.xib */; };
+		BEABF0AD2826BD59001C43CD /* FocusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEABF0AC2826BD59001C43CD /* FocusView.xib */; };
+		BEABF0AF2826C2B9001C43CD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABF0AE2826C2B9001C43CD /* FirstViewController.swift */; };
 		BEC6D57E2811148C00806712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6D57D2811148C00806712 /* AppDelegate.swift */; };
 		BEC6D5802811148C00806712 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC6D57F2811148C00806712 /* SceneDelegate.swift */; };
 		BEC6D5852811148C00806712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC6D5832811148C00806712 /* Main.storyboard */; };
@@ -29,13 +34,18 @@
 /* Begin PBXFileReference section */
 		244FB361506B21428C7F7307 /* Pods_study.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_study.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		897F7489275549873BA0CF99 /* Pods-study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-study.release.xcconfig"; path = "Target Support Files/Pods-study/Pods-study.release.xcconfig"; sourceTree = "<group>"; };
-		BE1B48FD2817A59100C3CC03 /* OrderInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderInfoViewController.swift; sourceTree = "<group>"; };
 		BE1CF48A28125AEC0080FE3F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		BE5353202817B5690001AC7C /* BasketOrderInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketOrderInfoViewController.swift; sourceTree = "<group>"; };
 		BE5353262817BDFD0001AC7C /* RibbonOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibbonOrderViewController.swift; sourceTree = "<group>"; };
 		BE6CD5082818E7DF001D3651 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		BE6CD50A2818F53C001D3651 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		BE6CD50C28190BA8001D3651 /* RegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistViewController.swift; sourceTree = "<group>"; };
+		BE6F3BB328292A8400D85915 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BE6F3BB528292A9100D85915 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		BEABF0A62826BB72001C43CD /* FlowerOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerOrderViewController.swift; sourceTree = "<group>"; };
+		BEABF0A82826BC64001C43CD /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		BEABF0AA2826BC9C001C43CD /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		BEABF0AC2826BD59001C43CD /* FocusView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FocusView.xib; sourceTree = "<group>"; };
+		BEABF0AE2826C2B9001C43CD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		BEC6D57A2811148C00806712 /* study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC6D57D2811148C00806712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEC6D57F2811148C00806712 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +78,6 @@
 				D8D5E53F541B16B5C816BA7A /* Pods-study.debug.xcconfig */,
 				897F7489275549873BA0CF99 /* Pods-study.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -97,8 +106,6 @@
 				BEC6D57F2811148C00806712 /* SceneDelegate.swift */,
 				BEC6D5912811265D00806712 /* RegisterViewController.swift */,
 				BE1CF48A28125AEC0080FE3F /* SearchViewController.swift */,
-				BE1B48FD2817A59100C3CC03 /* OrderInfoViewController.swift */,
-				BE5353202817B5690001AC7C /* BasketOrderInfoViewController.swift */,
 				BE5353262817BDFD0001AC7C /* RibbonOrderViewController.swift */,
 				BEEEBB8A2813D49F003A8F06 /* DeliveryInfoViewController.swift */,
 				BEDCCF0128167B990064C7F4 /* LicenseInfoViewController.swift */,
@@ -106,6 +113,13 @@
 				BE6CD50A2818F53C001D3651 /* ListViewController.swift */,
 				BE6CD50C28190BA8001D3651 /* RegistViewController.swift */,
 				BED6EF5E28224ED20076838D /* OrderCheckViewController.swift */,
+				BEABF0A62826BB72001C43CD /* FlowerOrderViewController.swift */,
+				BEABF0AE2826C2B9001C43CD /* FirstViewController.swift */,
+				BE6F3BB328292A8400D85915 /* SecondViewController.swift */,
+				BE6F3BB528292A9100D85915 /* ThirdViewController.swift */,
+				BEABF0A82826BC64001C43CD /* MenuCell.swift */,
+				BEABF0AA2826BC9C001C43CD /* MenuCell.xib */,
+				BEABF0AC2826BD59001C43CD /* FocusView.xib */,
 				BEC6D5832811148C00806712 /* Main.storyboard */,
 				BEC6D5862811148D00806712 /* Assets.xcassets */,
 				BEC6D5882811148D00806712 /* LaunchScreen.storyboard */,
@@ -184,6 +198,8 @@
 			files = (
 				BEC6D58A2811148D00806712 /* LaunchScreen.storyboard in Resources */,
 				BEC6D5872811148D00806712 /* Assets.xcassets in Resources */,
+				BEABF0AB2826BC9C001C43CD /* MenuCell.xib in Resources */,
+				BEABF0AD2826BD59001C43CD /* FocusView.xib in Resources */,
 				BEC6D5852811148C00806712 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,8 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC6D57E2811148C00806712 /* AppDelegate.swift in Sources */,
-				BE1B48FE2817A59100C3CC03 /* OrderInfoViewController.swift in Sources */,
+				BEABF0A72826BB72001C43CD /* FlowerOrderViewController.swift in Sources */,
 				BE6CD50D28190BA8001D3651 /* RegistViewController.swift in Sources */,
+				BE6F3BB428292A8400D85915 /* SecondViewController.swift in Sources */,
 				BE5353272817BDFD0001AC7C /* RibbonOrderViewController.swift in Sources */,
 				BEC6D5802811148C00806712 /* SceneDelegate.swift in Sources */,
 				BE1CF48B28125AEC0080FE3F /* SearchViewController.swift in Sources */,
@@ -247,9 +264,11 @@
 				BEDCCF0228167B990064C7F4 /* LicenseInfoViewController.swift in Sources */,
 				BE6CD5092818E7DF001D3651 /* QuestionViewController.swift in Sources */,
 				BEEEBB8B2813D49F003A8F06 /* DeliveryInfoViewController.swift in Sources */,
+				BEABF0A92826BC64001C43CD /* MenuCell.swift in Sources */,
 				BEC6D5922811265D00806712 /* RegisterViewController.swift in Sources */,
 				BED6EF5F28224ED20076838D /* OrderCheckViewController.swift in Sources */,
-				BE5353212817B5690001AC7C /* BasketOrderInfoViewController.swift in Sources */,
+				BE6F3BB628292A9100D85915 /* ThirdViewController.swift in Sources */,
+				BEABF0AF2826C2B9001C43CD /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
