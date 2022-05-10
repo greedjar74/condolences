@@ -12,6 +12,8 @@ class RegistViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     @IBOutlet weak var selectionTExtField: UITextField!
     @IBOutlet weak var registButton: UIButton!
     @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var contentsView: UIView!
+    @IBOutlet weak var contentsInnerTextView: UITextView!
     
     let selectList = ["1", "2", "3", "4", "5"]
     
@@ -22,6 +24,19 @@ class RegistViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         
         self.configureRegistButtonSetting()
         self.configurePickerView()
+        self.configureContentsViewSetting()
+    }
+    
+    func configureContentsViewSetting() {
+        let color = UIColor(red: 200/255, green: 200/255, blue: 200/255, alpha: 1.0)
+        
+        self.contentsView.layer.borderColor = color.cgColor
+        self.contentsView.layer.borderWidth = 0.5
+        self.contentsView.layer.cornerRadius = 5.0
+        
+        self.contentsInnerTextView.layer.cornerRadius = 5.0
+        self.contentsInnerTextView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+        self.contentsInnerTextView.layer.masksToBounds = true
     }
     
     func configureRegistButtonSetting() {

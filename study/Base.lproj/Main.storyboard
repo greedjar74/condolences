@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mFG-lv-Fnt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6XN-Gm-HJj">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -1374,9 +1374,6 @@
                                                     <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                     <state key="normal" image="arrow.right" catalog="system"/>
-                                                    <connections>
-                                                        <segue destination="tZZ-S1-YnZ" kind="show" id="WgW-n7-xTW"/>
-                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -1432,7 +1429,7 @@
             <objects>
                 <viewController id="tZZ-S1-YnZ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PRx-58-pxh">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topbar" translatesAutoresizingMaskIntoConstraints="NO" id="966-eM-orJ">
@@ -1457,7 +1454,7 @@
                                 <state key="normal" image="house.fill" catalog="system"/>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y23-8Q-FIf">
-                                <rect key="frame" x="0.0" y="113" width="428" height="725"/>
+                                <rect key="frame" x="0.0" y="113" width="428" height="779"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ea2-JJ-21l">
                                         <rect key="frame" x="0.0" y="0.0" width="428" height="815"/>
@@ -3320,6 +3317,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="contentsInnerTextView" destination="M4f-qf-hMi" id="5AU-5u-rG9"/>
+                        <outlet property="contentsView" destination="WDY-8f-W5X" id="lGR-gn-tpe"/>
                         <outlet property="nameTextField" destination="RbA-as-JTf" id="Rch-kA-cYe"/>
                         <outlet property="registButton" destination="JvC-fp-Sff" id="2bR-Nw-aBT"/>
                         <outlet property="selectionTExtField" destination="Zt0-7K-XdC" id="jCn-W0-6gf"/>
