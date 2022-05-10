@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B30F094661BA5610D21761BF /* Pods_study.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244FB361506B21428C7F7307 /* Pods_study.framework */; };
 		BE1CF48B28125AEC0080FE3F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1CF48A28125AEC0080FE3F /* SearchViewController.swift */; };
-		BE5353272817BDFD0001AC7C /* RibbonOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5353262817BDFD0001AC7C /* RibbonOrderViewController.swift */; };
 		BE6CD5092818E7DF001D3651 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CD5082818E7DF001D3651 /* QuestionViewController.swift */; };
 		BE6CD50B2818F53C001D3651 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CD50A2818F53C001D3651 /* ListViewController.swift */; };
 		BE6CD50D28190BA8001D3651 /* RegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CD50C28190BA8001D3651 /* RegistViewController.swift */; };
@@ -35,7 +34,6 @@
 		244FB361506B21428C7F7307 /* Pods_study.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_study.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		897F7489275549873BA0CF99 /* Pods-study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-study.release.xcconfig"; path = "Target Support Files/Pods-study/Pods-study.release.xcconfig"; sourceTree = "<group>"; };
 		BE1CF48A28125AEC0080FE3F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		BE5353262817BDFD0001AC7C /* RibbonOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibbonOrderViewController.swift; sourceTree = "<group>"; };
 		BE6CD5082818E7DF001D3651 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		BE6CD50A2818F53C001D3651 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		BE6CD50C28190BA8001D3651 /* RegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 				BEC6D57F2811148C00806712 /* SceneDelegate.swift */,
 				BEC6D5912811265D00806712 /* RegisterViewController.swift */,
 				BE1CF48A28125AEC0080FE3F /* SearchViewController.swift */,
-				BE5353262817BDFD0001AC7C /* RibbonOrderViewController.swift */,
 				BEEEBB8A2813D49F003A8F06 /* DeliveryInfoViewController.swift */,
 				BEDCCF0128167B990064C7F4 /* LicenseInfoViewController.swift */,
 				BE6CD5082818E7DF001D3651 /* QuestionViewController.swift */,
@@ -257,7 +254,6 @@
 				BEABF0A72826BB72001C43CD /* FlowerOrderViewController.swift in Sources */,
 				BE6CD50D28190BA8001D3651 /* RegistViewController.swift in Sources */,
 				BE6F3BB428292A8400D85915 /* SecondViewController.swift in Sources */,
-				BE5353272817BDFD0001AC7C /* RibbonOrderViewController.swift in Sources */,
 				BEC6D5802811148C00806712 /* SceneDelegate.swift in Sources */,
 				BE1CF48B28125AEC0080FE3F /* SearchViewController.swift in Sources */,
 				BE6CD50B2818F53C001D3651 /* ListViewController.swift in Sources */,

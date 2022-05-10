@@ -13,14 +13,6 @@ class FlowerOrderViewController: UIViewController {
     var menuViewController: PagingMenuViewController!
     var contentViewController: PagingContentViewController!
     
-    // static var viewController: (UIColor) -> UIViewController = { (color) in
-        // let vc = UIViewController()
-         
-        // return vc
-    // }
-    
-    // var dataSource = [(menuTitle: "근조화환", vc: viewController(.red)), (menuTitle: "바구니/오브제", vc: viewController(.blue)), (menuTitle: "리본교체", vc: viewController(.orange))]
-    
     var dataSource = [(menu: String, content: UIViewController)]() {
         didSet {
             menuViewController.reloadData()
@@ -87,7 +79,7 @@ extension FlowerOrderViewController: PagingMenuViewControllerDataSource {
     }
     
     func menuViewController(viewController: PagingMenuViewController, widthForItemAt index: Int) -> CGFloat {
-        return 145
+        return self.view.frame.width / 3
     }
     
     func menuViewController(viewController: PagingMenuViewController, cellForItemAt index: Int) -> PagingMenuViewCell {
