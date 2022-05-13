@@ -13,6 +13,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     let priceList = ["77,000원", "88,000원", "99,000원", "145,000원"]
     let percentList = ["10%", "12%", "18%", "20%"]
     let originList = ["85,000원", "100,000원", "120,000원", "180,000원"]
+    let isCellBest = [true, false, true, true]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +38,8 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.priceLabel.text = priceList[indexPath.row]
         cell.percentLabel.text = percentList[indexPath.row]
         cell.originLabel.text = originList[indexPath.row]
+        cell.bestLabel.isHidden = isCellBest[indexPath.row]
+        cell.starImgView.isHidden = isCellBest[indexPath.row]
         
         return cell
     }
@@ -49,4 +52,6 @@ class FirstCell: UITableViewCell {
     @IBOutlet weak var percentLabel: UILabel!
     @IBOutlet weak var originLabel: UILabel!
     @IBOutlet weak var orderView: UIView!
+    @IBOutlet weak var starImgView: UIImageView!
+    @IBOutlet weak var bestLabel: UILabel!
 }
