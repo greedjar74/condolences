@@ -25,20 +25,33 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         let color = UIColor(red: 200/255, green: 200/255, blue: 200/255, alpha: 1.0)
         
-        cell.layer.borderColor = color.cgColor
-        cell.layer.borderWidth = 0.5
-        cell.layer.cornerRadius = 10.0
+        cell.priceLabel.text = priceList[indexPath.row]
+        cell.nameLabel.text = nameList[indexPath.row]
+        
+        // 전체 view 설정
+        cell.containerView.layer.borderColor = color.cgColor
+        cell.containerView.layer.borderWidth = 0.5
+        cell.containerView.layer.cornerRadius = 5.0
+        cell.containerView.layer.shadowOpacity = 0.15
+        cell.containerView.layer.shadowRadius = 5.0
+        cell.containerView.layer.shadowColor = UIColor.black.cgColor
+        cell.containerView.layer.shadowOffset = CGSize(width: 2, height: 2)
+        
+        // order button 설정
         cell.orderView.layer.borderColor = color.cgColor
         cell.orderView.layer.borderWidth = 0.5
         cell.orderView.layer.cornerRadius = 5.0
-        cell.priceLabel.text = priceList[indexPath.row]
-        cell.nameLabel.text = nameList[indexPath.row]
+        cell.orderView.layer.shadowOpacity = 0.15
+        cell.orderView.layer.shadowRadius = 5.0
+        cell.orderView.layer.shadowColor = UIColor.black.cgColor
+        cell.orderView.layer.shadowOffset = CGSize(width: 2, height: 2)
         
         return cell
     }
 }
 
 class ThirdCell: UITableViewCell {
+    @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
