@@ -31,7 +31,7 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
         // 전체 view 설정
         cell.containerView.layer.borderColor = color.cgColor
         cell.containerView.layer.borderWidth = 0.5
-        cell.containerView.layer.cornerRadius = 5.0
+        cell.containerView.layer.cornerRadius = 10.0
         cell.containerView.layer.shadowOpacity = 0.15
         cell.containerView.layer.shadowRadius = 3.0
         cell.containerView.layer.shadowColor = UIColor.black.cgColor
