@@ -33,7 +33,7 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.containerView.layer.borderWidth = 0.5
         cell.containerView.layer.cornerRadius = 5.0
         cell.containerView.layer.shadowOpacity = 0.15
-        cell.containerView.layer.shadowRadius = 5.0
+        cell.containerView.layer.shadowRadius = 3.0
         cell.containerView.layer.shadowColor = UIColor.black.cgColor
         cell.containerView.layer.shadowOffset = CGSize(width: 2, height: 2)
         
@@ -42,7 +42,7 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.orderView.layer.borderWidth = 0.5
         cell.orderView.layer.cornerRadius = 5.0
         cell.orderView.layer.shadowOpacity = 0.15
-        cell.orderView.layer.shadowRadius = 5.0
+        cell.orderView.layer.shadowRadius = 3.0
         cell.orderView.layer.shadowColor = UIColor.black.cgColor
         cell.orderView.layer.shadowOffset = CGSize(width: 2, height: 2)
         

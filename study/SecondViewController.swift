@@ -38,7 +38,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.containerView.layer.cornerRadius = 5.0
         cell.containerView.layer.shadowColor = UIColor.black.cgColor
         cell.containerView.layer.shadowOpacity = 0.15
-        cell.containerView.layer.shadowRadius = 5.0
+        cell.containerView.layer.shadowRadius = 3.0
         cell.containerView.layer.shadowOffset = CGSize(width: 2, height: 2)
         
         // order button layer 설정
@@ -47,7 +47,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.orderView.layer.cornerRadius = 5.0
         cell.orderView.layer.shadowColor = UIColor.black.cgColor
         cell.orderView.layer.shadowOpacity = 0.15
-        cell.orderView.layer.shadowRadius = 5.0
+        cell.orderView.layer.shadowRadius = 3.0
         cell.orderView.layer.shadowOffset = CGSize(width: 2, height: 2)
         
         return cell
