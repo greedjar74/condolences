@@ -10,6 +10,7 @@ import PagingKit
 
 class FlowerOrderViewController: UIViewController {
     
+    // menuViewController와 contentViewController를 따로 생성하여 적용
     var menuViewController: PagingMenuViewController!
     var contentViewController: PagingContentViewController!
     
